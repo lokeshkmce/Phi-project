@@ -1,0 +1,21 @@
+{
+  "architecture": "DistilBERT (distilbert-base-cased)",
+  "total_parameters": 65788425,
+  "trainable_parameters": 65788425,
+  "storage_size_mb": 250.96,
+  "is_under_1_billion": true,
+  "num_classes": 11,
+  "labels": [
+    "O",
+    "B-NAME",
+    "I-NAME",
+    "B-CLINICIAN",
+    "I-CLINICIAN",
+    "B-RELATIVE",
+    "I-RELATIVE",
+    "B-FACILITY",
+    "I-FACILITY",
+    "B-STREET",
+    "I-STREET"
+  ]
+}

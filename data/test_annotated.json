@@ -1,0 +1,1566 @@
+[
+  {
+    "id": "NOTE_01",
+    "category": "Cardiology Consult - Salem",
+    "text": "CARDIOLOGY CONSULTATION\nPatient Name: Murugan Natarajan\nDOB: 15/04/1962 (Age: 64)\nMRN: TN-MRN-849201\nReferring Physician: Dr. K. Senthil Kumar, MD\nFacility: Salem General Hospital\nAddress: No. 42, Omalur Main Road, Salem, TN 636001\nPhone: +91 9842156789 | Email: murugan.natarajan@tamilhealth.in\n\nHistory of Present Illness: 64-year-old male presents with exertional angina. He underwent coronary evaluation on 10/02/2026 at Salem General Hospital.\nAssessment & Plan: Coronary artery disease. Prescribed Atorvastatin 40mg daily. Follow up in 4 weeks.\n\nElectronically Signed: Dr. K. Senthil Kumar, MD\nLicense: TNMC-92817",
+    "ground_truth_entities": [
+      {
+        "entity": "Murugan Natarajan",
+        "category": "NAME",
+        "start": 38,
+        "end": 55
+      },
+      {
+        "entity": "15/04/1962",
+        "category": "DATE",
+        "start": 61,
+        "end": 71
+      },
+      {
+        "entity": "TN-MRN-849201",
+        "category": "MRN",
+        "start": 87,
+        "end": 100
+      },
+      {
+        "entity": "K. Senthil Kumar",
+        "category": "CLINICIAN",
+        "start": 126,
+        "end": 142
+      },
+      {
+        "entity": "Salem General Hospital",
+        "category": "FACILITY",
+        "start": 157,
+        "end": 179
+      },
+      {
+        "entity": "Salem",
+        "category": "CITY",
+        "start": 157,
+        "end": 162
+      },
+      {
+        "entity": "No. 42, Omalur Main Road",
+        "category": "STREET",
+        "start": 189,
+        "end": 213
+      },
+      {
+        "entity": "Salem",
+        "category": "CITY",
+        "start": 215,
+        "end": 220
+      },
+      {
+        "entity": "636001",
+        "category": "ZIP",
+        "start": 225,
+        "end": 231
+      },
+      {
+        "entity": "+91 9842156789",
+        "category": "PHONE",
+        "start": 239,
+        "end": 253
+      },
+      {
+        "entity": "murugan.natarajan@tamilhealth.in",
+        "category": "EMAIL",
+        "start": 263,
+        "end": 295
+      },
+      {
+        "entity": "10/02/2026",
+        "category": "DATE",
+        "start": 411,
+        "end": 421
+      },
+      {
+        "entity": "Salem General Hospital",
+        "category": "FACILITY",
+        "start": 425,
+        "end": 447
+      },
+      {
+        "entity": "Salem",
+        "category": "CITY",
+        "start": 425,
+        "end": 430
+      },
+      {
+        "entity": "K. Senthil Kumar",
+        "category": "CLINICIAN",
+        "start": 579,
+        "end": 595
+      },
+      {
+        "entity": "TNMC-92817",
+        "category": "LICENSE",
+        "start": 609,
+        "end": 619
+      }
+    ]
+  },
+  {
+    "id": "NOTE_02",
+    "category": "Edge Case - Eponym vs Disease (Chennai Apollo)",
+    "text": "NEUROLOGY PROGRESS NOTE\nPatient: Revathi Sundaram\nDOB: 23/11/1958 | National ID: 2194-4588-8821\nAttending: Dr. Parkinson evaluated the patient today at Chennai.\n\nFindings: Patient has a 5-year history of Parkinson's disease with resting tremor and bradykinesia. Dr. Parkinson noted progression in rigidity. Levodopa dosage adjusted. Contact clinic at +91 9840123456 or support@apollo.tn.org.\nFacility: Apollo Hospitals Greams Road, Chennai, TN 600006.",
+    "ground_truth_entities": [
+      {
+        "entity": "Revathi Sundaram",
+        "category": "NAME",
+        "start": 33,
+        "end": 49
+      },
+      {
+        "entity": "23/11/1958",
+        "category": "DATE",
+        "start": 55,
+        "end": 65
+      },
+      {
+        "entity": "2194-4588-8821",
+        "category": "SSN",
+        "start": 81,
+        "end": 95
+      },
+      {
+        "entity": "Parkinson",
+        "category": "CLINICIAN",
+        "start": 111,
+        "end": 120
+      },
+      {
+        "entity": "Chennai",
+        "category": "CITY",
+        "start": 152,
+        "end": 159
+      },
+      {
+        "entity": "Parkinson",
+        "category": "CLINICIAN",
+        "start": 204,
+        "end": 213
+      },
+      {
+        "entity": "Parkinson",
+        "category": "CLINICIAN",
+        "start": 266,
+        "end": 275
+      },
+      {
+        "entity": "+91 9840123456",
+        "category": "PHONE",
+        "start": 351,
+        "end": 365
+      },
+      {
+        "entity": "support@apollo.tn.org",
+        "category": "EMAIL",
+        "start": 369,
+        "end": 390
+      },
+      {
+        "entity": "Apollo Hospitals Greams Road",
+        "category": "FACILITY",
+        "start": 402,
+        "end": 430
+      },
+      {
+        "entity": "Chennai",
+        "category": "CITY",
+        "start": 432,
+        "end": 439
+      },
+      {
+        "entity": "600006",
+        "category": "ZIP",
+        "start": 444,
+        "end": 450
+      }
+    ]
+  },
+  {
+    "id": "NOTE_03",
+    "category": "Edge Case - Age Boundaries & Relative Dates (Ganga Coimbatore)",
+    "text": "GERIATRIC ASSESSMENT NOTE\nPatient: Palanisamy Gounder\nAge: 95 years old\nEvaluation Date: October 14, 2025\nCaregiver / Daughter: Meenakshi Palanisamy\n\nClinical Summary: Patient is 3 days post-operative following hip repair. Palanisamy Gounder is recovering well. Note that his younger roommate is 45 years old and was discharged yesterday. Patient will be discharged to Coimbatore Senior Care on 20/10/2025.\nFax records to: 0422-2456789.",
+    "ground_truth_entities": [
+      {
+        "entity": "Palanisamy Gounder",
+        "category": "NAME",
+        "start": 35,
+        "end": 53
+      },
+      {
+        "entity": "95 years old",
+        "category": "AGE_OVER_89",
+        "start": 59,
+        "end": 71
+      },
+      {
+        "entity": "October 14, 2025",
+        "category": "DATE",
+        "start": 89,
+        "end": 105
+      },
+      {
+        "entity": "Meenakshi Palanisamy",
+        "category": "RELATIVE",
+        "start": 128,
+        "end": 148
+      },
+      {
+        "entity": "Palanisamy Gounder",
+        "category": "NAME",
+        "start": 223,
+        "end": 241
+      },
+      {
+        "entity": "Coimbatore Senior Care",
+        "category": "FACILITY",
+        "start": 369,
+        "end": 391
+      },
+      {
+        "entity": "20/10/2025",
+        "category": "DATE",
+        "start": 395,
+        "end": 405
+      },
+      {
+        "entity": "0422-2456789",
+        "category": "FAX",
+        "start": 423,
+        "end": 435
+      }
+    ]
+  },
+  {
+    "id": "NOTE_04",
+    "category": "Oncology Follow-up - KMCH Coimbatore",
+    "text": "ONCOLOGY DISCHARGE SUMMARY\nPatient: Priya Balasubramanian\nDOB: 04/08/1971 | MRN: KMCH-902814\nHealth Plan ID: CMCHIS-TN-889210\nPhysician: Dr. R. Subramaniam\nHospital: Kovai Medical Center and Hospital (KMCH), Avinashi Road, Coimbatore, TN 641018\nIP Access Log: 192.168.1.105 | Telehealth URL: https://portal.kmch.tn.health.org/telehealth/v1\n\nChemotherapy cycle 4 completed on September 3, 2025. Follow up with Dr. R. Subramaniam on 05/10/2025.",
+    "ground_truth_entities": [
+      {
+        "entity": "Priya Balasubramanian",
+        "category": "NAME",
+        "start": 36,
+        "end": 57
+      },
+      {
+        "entity": "04/08/1971",
+        "category": "DATE",
+        "start": 63,
+        "end": 73
+      },
+      {
+        "entity": "KMCH-902814",
+        "category": "MRN",
+        "start": 81,
+        "end": 92
+      },
+      {
+        "entity": "CMCHIS-TN-889210",
+        "category": "HEALTH_PLAN",
+        "start": 109,
+        "end": 125
+      },
+      {
+        "entity": "R. Subramaniam",
+        "category": "CLINICIAN",
+        "start": 141,
+        "end": 155
+      },
+      {
+        "entity": "Kovai Medical Center and Hospital (KMCH)",
+        "category": "FACILITY",
+        "start": 166,
+        "end": 206
+      },
+      {
+        "entity": "Avinashi Road",
+        "category": "STREET",
+        "start": 208,
+        "end": 221
+      },
+      {
+        "entity": "Coimbatore",
+        "category": "CITY",
+        "start": 223,
+        "end": 233
+      },
+      {
+        "entity": "641018",
+        "category": "ZIP",
+        "start": 238,
+        "end": 244
+      },
+      {
+        "entity": "192.168.1.105",
+        "category": "IP",
+        "start": 260,
+        "end": 273
+      },
+      {
+        "entity": "https://portal.kmch.tn.health.org/telehealth/v1",
+        "category": "URL",
+        "start": 292,
+        "end": 339
+      },
+      {
+        "entity": "September 3, 2025",
+        "category": "DATE",
+        "start": 375,
+        "end": 392
+      },
+      {
+        "entity": "R. Subramaniam",
+        "category": "CLINICIAN",
+        "start": 413,
+        "end": 427
+      },
+      {
+        "entity": "05/10/2025",
+        "category": "DATE",
+        "start": 431,
+        "end": 441
+      }
+    ]
+  },
+  {
+    "id": "NOTE_05",
+    "category": "Pediatric Intake - CMC Vellore",
+    "text": "PEDIATRIC CLINIC NOTE\nChild: Vignesh Saravanan, 6 years of age.\nMother: Soundarya Saravanan | Father: Saravanan Kuppusamy\nHome: No. 12, Ida Scudder Road, Vellore, TN 632004\nEmergency Contact Phone: +91 9443210987\nAccount #: ACC-7738192\nPediatrician: Dr. T. Radhakrishnan, MD\n\nVignesh presented on 18/01/2026 with otitis media. Amoxicillin prescribed. Return in 10 days if symptoms persist.",
+    "ground_truth_entities": [
+      {
+        "entity": "Vignesh Saravanan",
+        "category": "NAME",
+        "start": 29,
+        "end": 46
+      },
+      {
+        "entity": "Vignesh",
+        "category": "NAME",
+        "start": 29,
+        "end": 36
+      },
+      {
+        "entity": "Soundarya Saravanan",
+        "category": "RELATIVE",
+        "start": 72,
+        "end": 91
+      },
+      {
+        "entity": "Saravanan Kuppusamy",
+        "category": "RELATIVE",
+        "start": 102,
+        "end": 121
+      },
+      {
+        "entity": "No. 12, Ida Scudder Road",
+        "category": "STREET",
+        "start": 128,
+        "end": 152
+      },
+      {
+        "entity": "Vellore",
+        "category": "CITY",
+        "start": 154,
+        "end": 161
+      },
+      {
+        "entity": "632004",
+        "category": "ZIP",
+        "start": 166,
+        "end": 172
+      },
+      {
+        "entity": "+91 9443210987",
+        "category": "PHONE",
+        "start": 198,
+        "end": 212
+      },
+      {
+        "entity": "ACC-7738192",
+        "category": "ACCOUNT",
+        "start": 224,
+        "end": 235
+      },
+      {
+        "entity": "T. Radhakrishnan",
+        "category": "CLINICIAN",
+        "start": 254,
+        "end": 270
+      },
+      {
+        "entity": "Vignesh",
+        "category": "NAME",
+        "start": 276,
+        "end": 283
+      },
+      {
+        "entity": "18/01/2026",
+        "category": "DATE",
+        "start": 297,
+        "end": 307
+      }
+    ]
+  },
+  {
+    "id": "NOTE_06",
+    "category": "Emergency Room Admission - Madurai Meenakshi Mission",
+    "text": "EMERGENCY DEPARTMENT ADMISSION\nPatient: Karthik Ramachandran\nNational ID: 9012-1244-4432 | Phone: +91 9894123456\nAmbulance transport to Meenakshi Mission Hospital & Research Centre on 2026-03-01.\nAttending ER Physician: Dr. P. Senthil Nathan\nDriver License: TN-58-D984710\n\nPatient sustained laceration during two-wheeler accident. Suture completed. Tetanus booster given.",
+    "ground_truth_entities": [
+      {
+        "entity": "Karthik Ramachandran",
+        "category": "NAME",
+        "start": 40,
+        "end": 60
+      },
+      {
+        "entity": "9012-1244-4432",
+        "category": "SSN",
+        "start": 74,
+        "end": 88
+      },
+      {
+        "entity": "+91 9894123456",
+        "category": "PHONE",
+        "start": 98,
+        "end": 112
+      },
+      {
+        "entity": "Meenakshi Mission Hospital & Research Centre",
+        "category": "FACILITY",
+        "start": 136,
+        "end": 180
+      },
+      {
+        "entity": "2026-03-01",
+        "category": "DATE",
+        "start": 184,
+        "end": 194
+      },
+      {
+        "entity": "P. Senthil Nathan",
+        "category": "CLINICIAN",
+        "start": 224,
+        "end": 241
+      },
+      {
+        "entity": "TN-58-D984710",
+        "category": "LICENSE",
+        "start": 258,
+        "end": 271
+      }
+    ]
+  },
+  {
+    "id": "NOTE_07",
+    "category": "Orthopedic Surgery - Trichy",
+    "text": "OPERATIVE REPORT\nPatient Name: Kousalya Thangavel\nDOB: 12/03/1982 | MRN: TN-MRN-481920\nSurgeon: Dr. V. Ananthapadmanabhan, MS\nFacility: Kauvery Hospital, Thillai Nagar Main Road, Tiruchirappalli, TN 620001\nDate of Surgery: 05-May-2025\n\nProcedure: Right knee arthroscopy. Kousalya tolerated procedure well. Follow-up appointment scheduled for 19/05/2025 at clinic.",
+    "ground_truth_entities": [
+      {
+        "entity": "Kousalya Thangavel",
+        "category": "NAME",
+        "start": 31,
+        "end": 49
+      },
+      {
+        "entity": "Kousalya",
+        "category": "NAME",
+        "start": 31,
+        "end": 39
+      },
+      {
+        "entity": "12/03/1982",
+        "category": "DATE",
+        "start": 55,
+        "end": 65
+      },
+      {
+        "entity": "TN-MRN-481920",
+        "category": "MRN",
+        "start": 73,
+        "end": 86
+      },
+      {
+        "entity": "V. Ananthapadmanabhan",
+        "category": "CLINICIAN",
+        "start": 100,
+        "end": 121
+      },
+      {
+        "entity": "Kauvery Hospital",
+        "category": "FACILITY",
+        "start": 136,
+        "end": 152
+      },
+      {
+        "entity": "Thillai Nagar Main Road",
+        "category": "STREET",
+        "start": 154,
+        "end": 177
+      },
+      {
+        "entity": "Tiruchirappalli",
+        "category": "CITY",
+        "start": 179,
+        "end": 194
+      },
+      {
+        "entity": "620001",
+        "category": "ZIP",
+        "start": 199,
+        "end": 205
+      },
+      {
+        "entity": "05-May-2025",
+        "category": "DATE",
+        "start": 223,
+        "end": 234
+      },
+      {
+        "entity": "Kousalya",
+        "category": "NAME",
+        "start": 271,
+        "end": 279
+      },
+      {
+        "entity": "19/05/2025",
+        "category": "DATE",
+        "start": 342,
+        "end": 352
+      }
+    ]
+  },
+  {
+    "id": "NOTE_08",
+    "category": "Endocrinology Note - Coimbatore",
+    "text": "ENDOCRINOLOGY CLINIC\nPatient: Ramesh Krishnan\nMRN: TN-MRN-339102 | Policy: STAR-HLTH-994821\nPhysician: Dr. Radha Venkatesan\nEmail: ramesh.k@tamilhealth.in | Web: https://portal.gknm.tn.health.org/patient/ndrake\nDate: 11/11/2025\n\nRamesh has Type 2 Diabetes. A1c improved from 8.4 to 7.1. Continue Metformin 1000mg BID. Review lab results on portal.",
+    "ground_truth_entities": [
+      {
+        "entity": "Ramesh Krishnan",
+        "category": "NAME",
+        "start": 30,
+        "end": 45
+      },
+      {
+        "entity": "Ramesh",
+        "category": "NAME",
+        "start": 30,
+        "end": 36
+      },
+      {
+        "entity": "TN-MRN-339102",
+        "category": "MRN",
+        "start": 51,
+        "end": 64
+      },
+      {
+        "entity": "STAR-HLTH-994821",
+        "category": "HEALTH_PLAN",
+        "start": 75,
+        "end": 91
+      },
+      {
+        "entity": "Radha Venkatesan",
+        "category": "CLINICIAN",
+        "start": 107,
+        "end": 123
+      },
+      {
+        "entity": "ramesh.k@tamilhealth.in",
+        "category": "EMAIL",
+        "start": 131,
+        "end": 154
+      },
+      {
+        "entity": "https://portal.gknm.tn.health.org/patient/ndrake",
+        "category": "URL",
+        "start": 162,
+        "end": 210
+      },
+      {
+        "entity": "11/11/2025",
+        "category": "DATE",
+        "start": 217,
+        "end": 227
+      },
+      {
+        "entity": "Ramesh",
+        "category": "NAME",
+        "start": 229,
+        "end": 235
+      }
+    ]
+  },
+  {
+    "id": "NOTE_09",
+    "category": "Pulmonology Consult - Chennai",
+    "text": "PULMONOLOGY CONSULTATION\nPatient: Deepa Shanmugam | Age: 38 | DOB: 21/09/1987\nAddress: No. 88, Anna Salai, Chennai, TN 600002\nConsultant: Dr. M. Jayaraman\nClinic: Sri Ramachandra Medical Centre\nDate: 02/04/2026\n\nAsthma exacerbation triggered by viral infection. Albuterol and Prednisone 5-day taper prescribed. Deepa Shanmugam to return if dyspnea worsens.",
+    "ground_truth_entities": [
+      {
+        "entity": "Deepa Shanmugam",
+        "category": "NAME",
+        "start": 34,
+        "end": 49
+      },
+      {
+        "entity": "21/09/1987",
+        "category": "DATE",
+        "start": 67,
+        "end": 77
+      },
+      {
+        "entity": "No. 88, Anna Salai",
+        "category": "STREET",
+        "start": 87,
+        "end": 105
+      },
+      {
+        "entity": "Chennai",
+        "category": "CITY",
+        "start": 107,
+        "end": 114
+      },
+      {
+        "entity": "600002",
+        "category": "ZIP",
+        "start": 119,
+        "end": 125
+      },
+      {
+        "entity": "M. Jayaraman",
+        "category": "CLINICIAN",
+        "start": 142,
+        "end": 154
+      },
+      {
+        "entity": "Sri Ramachandra Medical Centre",
+        "category": "FACILITY",
+        "start": 163,
+        "end": 193
+      },
+      {
+        "entity": "02/04/2026",
+        "category": "DATE",
+        "start": 200,
+        "end": 210
+      },
+      {
+        "entity": "Deepa Shanmugam",
+        "category": "NAME",
+        "start": 311,
+        "end": 326
+      }
+    ]
+  },
+  {
+    "id": "NOTE_10",
+    "category": "Dermatology Biopsy - Salem",
+    "text": "DERMATOLOGY PATHOLOGY REQUISITION\nPatient: Vijay Kuppusamy\nNational ID: 4120-8800-9901 | Phone: +91 9842765432\nPhysician: Dr. K. Soundararajan, MD | Lic: TNMC-84729\nBiopsy Date: 19/07/2025\nFacility: Manipal Hospital Salem, Junction Road, Fairlands, Salem, TN 636004\n\nLesion on left shoulder suspicious for basal cell carcinoma. Pathology specimen sent to Quest Diagnostics.",
+    "ground_truth_entities": [
+      {
+        "entity": "Vijay Kuppusamy",
+        "category": "NAME",
+        "start": 43,
+        "end": 58
+      },
+      {
+        "entity": "4120-8800-9901",
+        "category": "SSN",
+        "start": 72,
+        "end": 86
+      },
+      {
+        "entity": "+91 9842765432",
+        "category": "PHONE",
+        "start": 96,
+        "end": 110
+      },
+      {
+        "entity": "K. Soundararajan",
+        "category": "CLINICIAN",
+        "start": 126,
+        "end": 142
+      },
+      {
+        "entity": "TNMC-84729",
+        "category": "LICENSE",
+        "start": 154,
+        "end": 164
+      },
+      {
+        "entity": "19/07/2025",
+        "category": "DATE",
+        "start": 178,
+        "end": 188
+      },
+      {
+        "entity": "Manipal Hospital Salem",
+        "category": "FACILITY",
+        "start": 199,
+        "end": 221
+      },
+      {
+        "entity": "Salem",
+        "category": "CITY",
+        "start": 216,
+        "end": 221
+      },
+      {
+        "entity": "Junction Road, Fairlands",
+        "category": "STREET",
+        "start": 223,
+        "end": 247
+      },
+      {
+        "entity": "Salem",
+        "category": "CITY",
+        "start": 249,
+        "end": 254
+      },
+      {
+        "entity": "636004",
+        "category": "ZIP",
+        "start": 259,
+        "end": 265
+      },
+      {
+        "entity": "Quest Diagnostics",
+        "category": "FACILITY",
+        "start": 355,
+        "end": 372
+      }
+    ]
+  },
+  {
+    "id": "NOTE_11",
+    "category": "Nephrology Progress Note - Coimbatore",
+    "text": "NEPHROLOGY PROGRESSION NOTE\nPatient: Divya Arumugam\nMRN: TN-MRN-778819 | Account: ACC-991204\nNephrologist: Dr. S. Meenakshisundaram\nFacility: PSG Hospitals, Peelamedu, Coimbatore, TN 641004\nDate: 09/01/2026 | IP: 10.0.4.15\n\nStage 3 Chronic Kidney Disease. GFR stable at 48. Divya Arumugam advised low sodium diet. Follow up in 3 months.",
+    "ground_truth_entities": [
+      {
+        "entity": "Divya Arumugam",
+        "category": "NAME",
+        "start": 37,
+        "end": 51
+      },
+      {
+        "entity": "TN-MRN-778819",
+        "category": "MRN",
+        "start": 57,
+        "end": 70
+      },
+      {
+        "entity": "ACC-991204",
+        "category": "ACCOUNT",
+        "start": 82,
+        "end": 92
+      },
+      {
+        "entity": "S. Meenakshisundaram",
+        "category": "CLINICIAN",
+        "start": 111,
+        "end": 131
+      },
+      {
+        "entity": "PSG Hospitals",
+        "category": "FACILITY",
+        "start": 142,
+        "end": 155
+      },
+      {
+        "entity": "Coimbatore",
+        "category": "CITY",
+        "start": 168,
+        "end": 178
+      },
+      {
+        "entity": "641004",
+        "category": "ZIP",
+        "start": 183,
+        "end": 189
+      },
+      {
+        "entity": "09/01/2026",
+        "category": "DATE",
+        "start": 196,
+        "end": 206
+      },
+      {
+        "entity": "10.0.4.15",
+        "category": "IP",
+        "start": 213,
+        "end": 222
+      },
+      {
+        "entity": "Divya Arumugam",
+        "category": "NAME",
+        "start": 274,
+        "end": 288
+      }
+    ]
+  },
+  {
+    "id": "NOTE_12",
+    "category": "Psychiatric Intake - Chennai",
+    "text": "BEHAVIORAL HEALTH INTAKE\nClient: Balaji Muthusamy\nDOB: 14/12/1960\nEmergency Contact: Gayathri Balaji (Daughter), Phone: +91 9840987654\nClinician: Dr. V. Swaminathan, MD\nFacility: SIMS Hospital Vadapalani, Chennai, TN 600026\nDate of Intake: 2025-11-20\n\nClient reports anxiety and sleep disturbance. Initiated counseling. Next session 27/11/2025.",
+    "ground_truth_entities": [
+      {
+        "entity": "Balaji Muthusamy",
+        "category": "NAME",
+        "start": 33,
+        "end": 49
+      },
+      {
+        "entity": "14/12/1960",
+        "category": "DATE",
+        "start": 55,
+        "end": 65
+      },
+      {
+        "entity": "Gayathri Balaji",
+        "category": "RELATIVE",
+        "start": 85,
+        "end": 100
+      },
+      {
+        "entity": "+91 9840987654",
+        "category": "PHONE",
+        "start": 120,
+        "end": 134
+      },
+      {
+        "entity": "V. Swaminathan",
+        "category": "CLINICIAN",
+        "start": 150,
+        "end": 164
+      },
+      {
+        "entity": "SIMS Hospital Vadapalani",
+        "category": "FACILITY",
+        "start": 179,
+        "end": 203
+      },
+      {
+        "entity": "Chennai",
+        "category": "CITY",
+        "start": 205,
+        "end": 212
+      },
+      {
+        "entity": "600026",
+        "category": "ZIP",
+        "start": 217,
+        "end": 223
+      },
+      {
+        "entity": "2025-11-20",
+        "category": "DATE",
+        "start": 240,
+        "end": 250
+      },
+      {
+        "entity": "27/11/2025",
+        "category": "DATE",
+        "start": 333,
+        "end": 343
+      }
+    ]
+  },
+  {
+    "id": "NOTE_13",
+    "category": "Gastroenterology Procedure - Coimbatore",
+    "text": "ENDOSCOPY REPORT\nPatient: Rajesh Chettiar\nMRN: TN-MRN-664910 | DOB: 08/02/1989\nAttending: Dr. Thangavel Pandian\nLocation: G. Kuppuswamy Naidu Memorial Hospital (GKNM), Coimbatore, TN 641037\nProcedure Date: 15/08/2025\n\nUpper endoscopy performed. Normal esophageal mucosa. Mild gastritis noted. Rajesh Chettiar discharged home in care of Lakshmi Rajesh.",
+    "ground_truth_entities": [
+      {
+        "entity": "Rajesh Chettiar",
+        "category": "NAME",
+        "start": 26,
+        "end": 41
+      },
+      {
+        "entity": "TN-MRN-664910",
+        "category": "MRN",
+        "start": 47,
+        "end": 60
+      },
+      {
+        "entity": "08/02/1989",
+        "category": "DATE",
+        "start": 68,
+        "end": 78
+      },
+      {
+        "entity": "Thangavel Pandian",
+        "category": "CLINICIAN",
+        "start": 94,
+        "end": 111
+      },
+      {
+        "entity": "G. Kuppuswamy Naidu Memorial Hospital (GKNM)",
+        "category": "FACILITY",
+        "start": 122,
+        "end": 166
+      },
+      {
+        "entity": "Coimbatore",
+        "category": "CITY",
+        "start": 168,
+        "end": 178
+      },
+      {
+        "entity": "641037",
+        "category": "ZIP",
+        "start": 183,
+        "end": 189
+      },
+      {
+        "entity": "15/08/2025",
+        "category": "DATE",
+        "start": 206,
+        "end": 216
+      },
+      {
+        "entity": "Rajesh Chettiar",
+        "category": "NAME",
+        "start": 293,
+        "end": 308
+      },
+      {
+        "entity": "Lakshmi Rajesh",
+        "category": "RELATIVE",
+        "start": 336,
+        "end": 350
+      }
+    ]
+  },
+  {
+    "id": "NOTE_14",
+    "category": "Ophthalmology Note - Chennai",
+    "text": "OPHTHALMOLOGY EXAM\nPatient: Selvam Mudaliar\nAddress: No. 104, Usman Road, T. Nagar, Chennai, TN 600017\nPhone: +91 9841234567 | Email: selvam@chennaimail.com\nDoctor: Dr. Aravind Sundar\nDate: 30/06/2025\n\nIntraocular pressures: OD 14, OS 15. Mild myopia progression. New refractive prescription issued to Selvam Mudaliar.",
+    "ground_truth_entities": [
+      {
+        "entity": "Selvam Mudaliar",
+        "category": "NAME",
+        "start": 28,
+        "end": 43
+      },
+      {
+        "entity": "No. 104, Usman Road",
+        "category": "STREET",
+        "start": 53,
+        "end": 72
+      },
+      {
+        "entity": "Chennai",
+        "category": "CITY",
+        "start": 84,
+        "end": 91
+      },
+      {
+        "entity": "600017",
+        "category": "ZIP",
+        "start": 96,
+        "end": 102
+      },
+      {
+        "entity": "+91 9841234567",
+        "category": "PHONE",
+        "start": 110,
+        "end": 124
+      },
+      {
+        "entity": "selvam@chennaimail.com",
+        "category": "EMAIL",
+        "start": 134,
+        "end": 156
+      },
+      {
+        "entity": "Aravind Sundar",
+        "category": "CLINICIAN",
+        "start": 169,
+        "end": 183
+      },
+      {
+        "entity": "30/06/2025",
+        "category": "DATE",
+        "start": 190,
+        "end": 200
+      },
+      {
+        "entity": "Selvam Mudaliar",
+        "category": "NAME",
+        "start": 302,
+        "end": 317
+      }
+    ]
+  },
+  {
+    "id": "NOTE_15",
+    "category": "Obstetrics & Gynecology - Madurai",
+    "text": "PRENATAL PROGRESS NOTE\nPatient: Anitha Swaminathan\nDOB: 22/11/1984 | Policy: CMCHIS-TN-778210\nObstetrician: Dr. Kavitha Rajan\nFacility: Madurai Heart Foundation, Simmakkal Main Road, Madurai, TN 625001\nDate of Visit: 14/03/2026\n\nGestational age 28 weeks. Fetal heart rate 142 bpm. Ultrasound confirms normal fetal growth. Return visit in 2 weeks.",
+    "ground_truth_entities": [
+      {
+        "entity": "Anitha Swaminathan",
+        "category": "NAME",
+        "start": 32,
+        "end": 50
+      },
+      {
+        "entity": "22/11/1984",
+        "category": "DATE",
+        "start": 56,
+        "end": 66
+      },
+      {
+        "entity": "CMCHIS-TN-778210",
+        "category": "HEALTH_PLAN",
+        "start": 77,
+        "end": 93
+      },
+      {
+        "entity": "Kavitha Rajan",
+        "category": "CLINICIAN",
+        "start": 112,
+        "end": 125
+      },
+      {
+        "entity": "Madurai Heart Foundation",
+        "category": "FACILITY",
+        "start": 136,
+        "end": 160
+      },
+      {
+        "entity": "Madurai",
+        "category": "CITY",
+        "start": 136,
+        "end": 143
+      },
+      {
+        "entity": "Simmakkal Main Road",
+        "category": "STREET",
+        "start": 162,
+        "end": 181
+      },
+      {
+        "entity": "Madurai",
+        "category": "CITY",
+        "start": 183,
+        "end": 190
+      },
+      {
+        "entity": "625001",
+        "category": "ZIP",
+        "start": 195,
+        "end": 201
+      },
+      {
+        "entity": "14/03/2026",
+        "category": "DATE",
+        "start": 217,
+        "end": 227
+      }
+    ]
+  },
+  {
+    "id": "NOTE_16",
+    "category": "Urology Consult - Erode",
+    "text": "UROLOGY CLINIC NOTE\nPatient: Manikandan Pandian\nNational ID: 9981-1120-2045 | MRN: TN-MRN-100482\nPhysician: Dr. Suresh Natarajan, MS\nFax: 0424-2256789 | Email: suresh.n@tamilhealth.in\nVisit Date: 2026-02-14\n\nPatient reports renal colic. Ultrasound shows 4mm distal calculus. Hydration and Tamsulosin initiated. Manikandan advised to strain urine.",
+    "ground_truth_entities": [
+      {
+        "entity": "Manikandan Pandian",
+        "category": "NAME",
+        "start": 29,
+        "end": 47
+      },
+      {
+        "entity": "Manikandan",
+        "category": "NAME",
+        "start": 29,
+        "end": 39
+      },
+      {
+        "entity": "9981-1120-2045",
+        "category": "SSN",
+        "start": 61,
+        "end": 75
+      },
+      {
+        "entity": "TN-MRN-100482",
+        "category": "MRN",
+        "start": 83,
+        "end": 96
+      },
+      {
+        "entity": "Suresh Natarajan",
+        "category": "CLINICIAN",
+        "start": 112,
+        "end": 128
+      },
+      {
+        "entity": "0424-2256789",
+        "category": "FAX",
+        "start": 138,
+        "end": 150
+      },
+      {
+        "entity": "suresh.n@tamilhealth.in",
+        "category": "EMAIL",
+        "start": 160,
+        "end": 183
+      },
+      {
+        "entity": "2026-02-14",
+        "category": "DATE",
+        "start": 196,
+        "end": 206
+      },
+      {
+        "entity": "Manikandan",
+        "category": "NAME",
+        "start": 311,
+        "end": 321
+      }
+    ]
+  },
+  {
+    "id": "NOTE_17",
+    "category": "Rheumatology Consult - Tirunelveli",
+    "text": "RHEUMATOLOGY NOTE\nPatient: Nithya Venkatesan | DOB: 10/02/1988\nAddress: No. 32, Palayamkottai High Road, Tirunelveli, TN 627002\nAttending: Dr. Ashok Kumar\nFacility: Royal Care Super Speciality Hospital\nDate: 01/12/2025\n\nNithya Venkatesan evaluated for joint inflammation. ANA titer positive at 1:320. Hydroxychloroquine 200mg daily started.",
+    "ground_truth_entities": [
+      {
+        "entity": "Nithya Venkatesan",
+        "category": "NAME",
+        "start": 27,
+        "end": 44
+      },
+      {
+        "entity": "10/02/1988",
+        "category": "DATE",
+        "start": 52,
+        "end": 62
+      },
+      {
+        "entity": "No. 32, Palayamkottai High Road",
+        "category": "STREET",
+        "start": 72,
+        "end": 103
+      },
+      {
+        "entity": "Tirunelveli",
+        "category": "CITY",
+        "start": 105,
+        "end": 116
+      },
+      {
+        "entity": "627002",
+        "category": "ZIP",
+        "start": 121,
+        "end": 127
+      },
+      {
+        "entity": "Ashok Kumar",
+        "category": "CLINICIAN",
+        "start": 143,
+        "end": 154
+      },
+      {
+        "entity": "Royal Care Super Speciality Hospital",
+        "category": "FACILITY",
+        "start": 165,
+        "end": 201
+      },
+      {
+        "entity": "01/12/2025",
+        "category": "DATE",
+        "start": 208,
+        "end": 218
+      },
+      {
+        "entity": "Nithya Venkatesan",
+        "category": "NAME",
+        "start": 220,
+        "end": 237
+      }
+    ]
+  },
+  {
+    "id": "NOTE_18",
+    "category": "Infectious Disease Consult - Thanjavur",
+    "text": "INFECTIOUS DISEASE CONSULTATION\nPatient: Suresh Kannan\nDOB: 10/08/2001 | Health Plan: CMCHIS-TN-992810\nConsultant: Dr. Dinesh Arumugam, MD\nFacility: Christian Medical College (CMC) Hospital, Vellore, TN 632004\nDate: 18/09/2025\n\nPatient evaluated for viral fever with thrombocytopenia. Doxycycline prescribed. Suresh Kannan to follow up in 2 weeks.",
+    "ground_truth_entities": [
+      {
+        "entity": "Suresh Kannan",
+        "category": "NAME",
+        "start": 41,
+        "end": 54
+      },
+      {
+        "entity": "10/08/2001",
+        "category": "DATE",
+        "start": 60,
+        "end": 70
+      },
+      {
+        "entity": "CMCHIS-TN-992810",
+        "category": "HEALTH_PLAN",
+        "start": 86,
+        "end": 102
+      },
+      {
+        "entity": "Dinesh Arumugam",
+        "category": "CLINICIAN",
+        "start": 119,
+        "end": 134
+      },
+      {
+        "entity": "Christian Medical College (CMC) Hospital",
+        "category": "FACILITY",
+        "start": 149,
+        "end": 189
+      },
+      {
+        "entity": "Vellore",
+        "category": "CITY",
+        "start": 191,
+        "end": 198
+      },
+      {
+        "entity": "632004",
+        "category": "ZIP",
+        "start": 203,
+        "end": 209
+      },
+      {
+        "entity": "18/09/2025",
+        "category": "DATE",
+        "start": 216,
+        "end": 226
+      },
+      {
+        "entity": "Suresh Kannan",
+        "category": "NAME",
+        "start": 309,
+        "end": 322
+      }
+    ]
+  },
+  {
+    "id": "NOTE_19",
+    "category": "Physical Therapy Discharge - Dindigul",
+    "text": "PHYSICAL THERAPY DISCHARGE NOTE\nPatient: Aravind Selvaraj\nMRN: TN-MRN-191820 | Account: ACC-88401\nTherapist: Dr. Ganesh Ram, DPT | Lic: TNMC-88391\nLocation: Vellore Multi-Speciality Clinic, Vellore, TN 632001\nDischarge Date: 30/10/2025\n\nAravind Selvaraj completed 12 weeks of rotator cuff therapy. Shoulder mobility restored to 95%. Discharged to home exercise program.",
+    "ground_truth_entities": [
+      {
+        "entity": "Aravind Selvaraj",
+        "category": "NAME",
+        "start": 41,
+        "end": 57
+      },
+      {
+        "entity": "TN-MRN-191820",
+        "category": "MRN",
+        "start": 63,
+        "end": 76
+      },
+      {
+        "entity": "ACC-88401",
+        "category": "ACCOUNT",
+        "start": 88,
+        "end": 97
+      },
+      {
+        "entity": "Ganesh Ram",
+        "category": "CLINICIAN",
+        "start": 113,
+        "end": 123
+      },
+      {
+        "entity": "TNMC-88391",
+        "category": "LICENSE",
+        "start": 136,
+        "end": 146
+      },
+      {
+        "entity": "Vellore Multi-Speciality Clinic",
+        "category": "FACILITY",
+        "start": 157,
+        "end": 188
+      },
+      {
+        "entity": "Vellore",
+        "category": "CITY",
+        "start": 157,
+        "end": 164
+      },
+      {
+        "entity": "Vellore",
+        "category": "CITY",
+        "start": 190,
+        "end": 197
+      },
+      {
+        "entity": "632001",
+        "category": "ZIP",
+        "start": 202,
+        "end": 208
+      },
+      {
+        "entity": "30/10/2025",
+        "category": "DATE",
+        "start": 225,
+        "end": 235
+      },
+      {
+        "entity": "Aravind Selvaraj",
+        "category": "NAME",
+        "start": 237,
+        "end": 253
+      }
+    ]
+  },
+  {
+    "id": "NOTE_20",
+    "category": "Tabular Clinical Lab Roster - Tiruppur",
+    "text": "CLINICAL LAB ROSTER SUMMARY\nPATIENT_ID | NAME | TEST_DATE | FACILITY | CONTACT\nPT-001 | Dinesh Murugan | 12/04/2026 | Quest Diagnostics | +91 9842112233\nPT-002 | Radha Krishnan | 12/04/2026 | Quest Diagnostics | +91 9842112244\n\nAttending Toxicologist: Dr. Sundar Rajan, MD.\nNotes: Dr. Sundar Rajan verified biochemical blood profiles. Dinesh Murugan advised to monitor glucose levels.",
+    "ground_truth_entities": [
+      {
+        "entity": "Dinesh Murugan",
+        "category": "NAME",
+        "start": 88,
+        "end": 102
+      },
+      {
+        "entity": "12/04/2026",
+        "category": "DATE",
+        "start": 105,
+        "end": 115
+      },
+      {
+        "entity": "Quest Diagnostics",
+        "category": "FACILITY",
+        "start": 118,
+        "end": 135
+      },
+      {
+        "entity": "+91 9842112233",
+        "category": "PHONE",
+        "start": 138,
+        "end": 152
+      },
+      {
+        "entity": "Radha Krishnan",
+        "category": "NAME",
+        "start": 162,
+        "end": 176
+      },
+      {
+        "entity": "12/04/2026",
+        "category": "DATE",
+        "start": 179,
+        "end": 189
+      },
+      {
+        "entity": "Quest Diagnostics",
+        "category": "FACILITY",
+        "start": 192,
+        "end": 209
+      },
+      {
+        "entity": "+91 9842112244",
+        "category": "PHONE",
+        "start": 212,
+        "end": 226
+      },
+      {
+        "entity": "Sundar Rajan",
+        "category": "CLINICIAN",
+        "start": 256,
+        "end": 268
+      },
+      {
+        "entity": "Sundar Rajan",
+        "category": "CLINICIAN",
+        "start": 285,
+        "end": 297
+      },
+      {
+        "entity": "Dinesh Murugan",
+        "category": "NAME",
+        "start": 335,
+        "end": 349
+      }
+    ]
+  },
+  {
+    "id": "NOTE_21",
+    "category": "Geriatric Palliation - St. Mary Hospice Salem",
+    "text": "PALLIATIVE CARE CONSULT\nPatient: Gomathi Natarajan\nAge: 92 years of age | DOB: 19/05/1933\nSurrogate: Muthukumar Natarajan (Son)\nFacility: Manipal Hospital Salem, Salem, TN 636001\nDate: 22/01/2026\n\nGomathi Natarajan is 92 years old and receiving comfort measures. Son Muthukumar Natarajan agrees with palliative plan. Nursing visits scheduled three times weekly.",
+    "ground_truth_entities": [
+      {
+        "entity": "Gomathi Natarajan",
+        "category": "NAME",
+        "start": 33,
+        "end": 50
+      },
+      {
+        "entity": "92 years of age",
+        "category": "AGE_OVER_89",
+        "start": 56,
+        "end": 71
+      },
+      {
+        "entity": "19/05/1933",
+        "category": "DATE",
+        "start": 79,
+        "end": 89
+      },
+      {
+        "entity": "Muthukumar Natarajan",
+        "category": "RELATIVE",
+        "start": 101,
+        "end": 121
+      },
+      {
+        "entity": "Manipal Hospital Salem",
+        "category": "FACILITY",
+        "start": 138,
+        "end": 160
+      },
+      {
+        "entity": "Salem",
+        "category": "CITY",
+        "start": 155,
+        "end": 160
+      },
+      {
+        "entity": "Salem",
+        "category": "CITY",
+        "start": 162,
+        "end": 167
+      },
+      {
+        "entity": "636001",
+        "category": "ZIP",
+        "start": 172,
+        "end": 178
+      },
+      {
+        "entity": "22/01/2026",
+        "category": "DATE",
+        "start": 185,
+        "end": 195
+      },
+      {
+        "entity": "Gomathi Natarajan",
+        "category": "NAME",
+        "start": 197,
+        "end": 214
+      },
+      {
+        "entity": "92 years old",
+        "category": "AGE_OVER_89",
+        "start": 218,
+        "end": 230
+      },
+      {
+        "entity": "Muthukumar Natarajan",
+        "category": "RELATIVE",
+        "start": 267,
+        "end": 287
+      }
+    ]
+  },
+  {
+    "id": "NOTE_22",
+    "category": "Case Variation / Triage - Hosur",
+    "text": "AMBULATORY SURGERY CENTER\nPATIENT: muthukumar duraisamy (recorded as muthukumar in triage)\nMRN: TN-MRN-554901 | DOB: 24/10/1985\nSurgeon: Dr. Philip Boyce, MD\nClinic: Salem General Hospital, Salem, TN 636001\nDate: 15/03/2026\n\nPatient muthukumar duraisamy underwent cyst excision. Dr. Philip Boyce confirmed specimen submitted. Patient recovering well.",
+    "ground_truth_entities": [
+      {
+        "entity": "muthukumar duraisamy",
+        "category": "NAME",
+        "start": 35,
+        "end": 55
+      },
+      {
+        "entity": "muthukumar",
+        "category": "NAME",
+        "start": 35,
+        "end": 45
+      },
+      {
+        "entity": "muthukumar",
+        "category": "NAME",
+        "start": 69,
+        "end": 79
+      },
+      {
+        "entity": "TN-MRN-554901",
+        "category": "MRN",
+        "start": 96,
+        "end": 109
+      },
+      {
+        "entity": "24/10/1985",
+        "category": "DATE",
+        "start": 117,
+        "end": 127
+      },
+      {
+        "entity": "Philip Boyce",
+        "category": "CLINICIAN",
+        "start": 141,
+        "end": 153
+      },
+      {
+        "entity": "Salem General Hospital",
+        "category": "FACILITY",
+        "start": 166,
+        "end": 188
+      },
+      {
+        "entity": "Salem",
+        "category": "CITY",
+        "start": 166,
+        "end": 171
+      },
+      {
+        "entity": "Salem",
+        "category": "CITY",
+        "start": 190,
+        "end": 195
+      },
+      {
+        "entity": "636001",
+        "category": "ZIP",
+        "start": 200,
+        "end": 206
+      },
+      {
+        "entity": "15/03/2026",
+        "category": "DATE",
+        "start": 213,
+        "end": 223
+      },
+      {
+        "entity": "muthukumar duraisamy",
+        "category": "NAME",
+        "start": 233,
+        "end": 253
+      },
+      {
+        "entity": "muthukumar",
+        "category": "NAME",
+        "start": 233,
+        "end": 243
+      },
+      {
+        "entity": "Philip Boyce",
+        "category": "CLINICIAN",
+        "start": 283,
+        "end": 295
+      }
+    ]
+  }
+]

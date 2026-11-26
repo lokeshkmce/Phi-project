@@ -1,0 +1,21 @@
+{
+  "gateway": {
+    "precision": 93.45,
+    "recall": 91.06,
+    "f1_score": 93.39,
+    "leak_rate": 6.81,
+    "latency_ms": 32
+  },
+  "presidio_baseline": {
+    "precision": 81.2,
+    "recall": 74.5,
+    "f1_score": 77.7,
+    "leak_rate": 25.5,
+    "latency_ms": 78
+  },
+  "advantages": [
+    "Preserves clinical eponym diseases (e.g. Parkinson's disease vs Dr. Parkinson)",
+    "Handles Indian/Tamil Nadu healthcare formats (TNMC licenses, +91 mobiles, 6-digit PINs, CMCHIS)",
+    "Maintains request-scoped bijective mapping in local volatile memory (0.0% cloud leak rate)"
+  ]
+}
